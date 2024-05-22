@@ -187,7 +187,7 @@ a:focus {
 /*iconos de arriba llamada y gmail*/
 .top-bar .text i {
     font-size: 16px;
-    color: #1a8fac;
+    color: #c4d1d4;
     margin-right: 5px;
 }
 
@@ -540,6 +540,17 @@ a:focus {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.page-header3 {
+    position: relative;
+    margin-bottom: 45px;
+    padding: 210px 0 90px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../imgs/equipo.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .page-header h2 {
     position: relative;
@@ -557,6 +568,18 @@ a:focus {
     margin-bottom: 20px;
     padding-bottom: 5px;
 }
+.page-header3 h2 {
+    position: relative;
+    color: #ffffff;
+    font-size: 50px; /* Tamaño de fuente aumentado */
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+    text-shadow: 2px 2px 4px rgba(14, 155, 131, 0.5); /* Sombra del texto */
+    
+    
+}
+
 
 .page-header h2::after {
     position: absolute;
